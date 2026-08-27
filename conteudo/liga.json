@@ -14,18 +14,23 @@
       },
       {
         "sigla": "ABNc",
-        "nome": "Academia Brasileira de Neurocirurgia"
+        "nome": "Academia Brasileira de Neurocirurgia",
+        "url": "https://www.abnc.org.br"
       },
       {
         "sigla": "ABN",
-        "nome": "Academia Brasileira de Neurologia"
+        "nome": "Academia Brasileira de Neurologia",
+        "url": "https://abneuro.org.br"
       },
       {
         "sigla": "SBN",
-        "nome": "Sociedade Brasileira de Neurocirurgia"
+        "nome": "Sociedade Brasileira de Neurocirurgia",
+        "url": "https://www.portalsbn.org"
       },
       {
-        "sigla": "LABN FLANC"
+        "sigla": "LABN FLANC",
+        "nome": "Liga Acadêmica Brasileira de Neurocirurgia",
+        "url": "https://www.labnflanc.org"
       }
     ]
   }
