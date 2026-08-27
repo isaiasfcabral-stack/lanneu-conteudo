@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "atualizadoEm": "2026-08-18T12:00:00Z",
+  "conteudo": [
+    {
+      "id": "par-01-dr-thiago-brito",
+      "nome": "Dr. Thiago Brito"
+    },
+    {
+      "id": "par-02-dra-daniela",
+      "nome": "Dra. Daniela"
+    },
+    {
+      "id": "par-03-dr-paulo-andre",
+      "nome": "Dr. Paulo Andre"
+    },
+    {
+      "id": "par-04-dr-luiz-alejandro-astudillo-cadena",
+      "nome": "Dr. Luiz Alejandro Astudillo Cadena"
+    },
+    {
+      "id": "par-05-dr-gabriel-rocha",
+      "nome": "Dr. Gabriel Rocha"
+    }
+  ]
+}

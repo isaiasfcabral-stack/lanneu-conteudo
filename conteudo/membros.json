@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "atualizadoEm": "2026-08-18T12:00:00Z",
+  "conteudo": {
+    "diretoria": [
+      {
+        "id": "dir-01-caio-de-souza-nascimento",
+        "nome": "Caio de Souza Nascimento",
+        "cargo": "Presidente"
+      },
+      {
+        "id": "dir-02-marya-clara-camille-kuranishi",
+        "nome": "Marya Clara Camille Kuranishi",
+        "cargo": "Vice-presidente e Ensino"
+      },
+      {
+        "id": "dir-03-pedro-henrique-pinheiro-soares",
+        "nome": "Pedro Henrique Pinheiro Soares",
+        "cargo": "Secretário"
+      },
+      {
+        "id": "dir-04-juliana-alencar-isacksson-vieira",
+        "nome": "Juliana Alencar Isacksson Vieira",
+        "cargo": "Financeiro"
+      },
+      {
+        "id": "dir-05-adria-auzier",
+        "nome": "Adria Auzier",
+        "cargo": "Pesquisa"
+      },
+      {
+        "id": "dir-06-luis-henrique-costa-monteiro",
+        "nome": "Luis Henrique Costa Monteiro",
+        "cargo": "Ensino"
+      },
+      {
+        "id": "dir-07-victor-lucas",
+        "nome": "Victor Lucas",
+        "cargo": "Estágio"
+      },
+      {
+        "id": "dir-08-yane-dias-lee",
+        "nome": "Yane Dias Lee",
+        "cargo": "Marketing"
+      }
+    ],
+    "ligantesAtivos": [
+      {
+        "id": "lig-01-marcely-aparecida-da-silva-lima",
+        "nome": "Marcely Aparecida da Silva Lima"
+      },
+      {
+        "id": "lig-02-thiago-gabriel-barbosa-dos-santos",
+        "nome": "Thiago Gabriel Barbosa dos Santos"
+      },
+      {
+        "id": "lig-03-lucas-farias-barbosa",
+        "nome": "Lucas Farias Barbosa"
+      },
+      {
+        "id": "lig-04-iolanda-celia-oliveira-da-costa-lobato",
+        "nome": "Iolanda Célia Oliveira da Costa Lobato"
+      },
+      {
+        "id": "lig-05-juliana-mira",
+        "nome": "Juliana Mira"
+      },
+      {
+        "id": "lig-06-alexandre-dias-ferreira",
+        "nome": "Alexandre Dias Ferreira"
+      },
+      {
+        "id": "lig-07-pedro-carvalho-carneiro",
+        "nome": "Pedro Carvalho Carneiro"
+      },
+      {
+        "id": "lig-08-alana-vitoria-de-almeida-silveira",
+        "nome": "Alana Vitória de Almeida Silveira"
+      },
+      {
+        "id": "lig-09-antony-de-jesus-lima-ferreira",
+        "nome": "Antony de Jesus Lima Ferreira"
+      },
+      {
+        "id": "lig-10-eduardo-bentes-frazao-yamaguchi-da-pureza",
+        "nome": "Eduardo Bentes Frazão Yamaguchi da Pureza"
+      },
+      {
+        "id": "lig-11-airton-da-silva-maia",
+        "nome": "Airton da Silva Maia"
+      },
+      {
+        "id": "lig-12-lucas-santos-dias",
+        "nome": "Lucas Santos Dias"
+      },
+      {
+        "id": "lig-13-luiz-guilherme-nunes-silva",
+        "nome": "Luiz Guilherme Nunes Silva"
+      },
+      {
+        "id": "lig-14-maria-izabel-borges-siqueira-netta",
+        "nome": "Maria Izabel Borges Siqueira Netta"
+      },
+      {
+        "id": "lig-15-adrielly-lima-de-souza",
+        "nome": "Adrielly Lima de Souza"
+      }
+    ],
+    "membrosExtras": [
+      {
+        "id": "ext-01-bianca-gomes",
+        "nome": "Bianca Gomes"
+      },
+      {
+        "id": "ext-02-willian-costa",
+        "nome": "Willian Costa"
+      },
+      {
+        "id": "ext-03-paulo-de-oliveira",
+        "nome": "Paulo de Oliveira"
+      },
+      {
+        "id": "ext-04-vinicius-freitas",
+        "nome": "Vinicius Freitas"
+      },
+      {
+        "id": "ext-05-arthur-andrade",
+        "nome": "Arthur Andrade"
+      },
+      {
+        "id": "ext-06-luan-henrique",
+        "nome": "Luan Henrique"
+      },
+      {
+        "id": "ext-07-enrique-ariel",
+        "nome": "Enrique Ariel"
+      },
+      {
+        "id": "ext-08-gabriela-martins",
+        "nome": "Gabriela Martins"
+      }
+    ]
+  }
+}

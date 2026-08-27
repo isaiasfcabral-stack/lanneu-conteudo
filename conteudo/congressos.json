@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "atualizadoEm": "2026-08-18T12:00:00Z",
+  "conteudo": [
+    {
+      "id": "sbni-2026",
+      "nome": "Congresso de Neurologia Infantil",
+      "entidade": "SBNI",
+      "ambito": "nacional",
+      "dataInicio": "2026-11-12",
+      "dataFim": "2026-11-14",
+      "local": "Salvador — BA",
+      "prazoSubmissao": "2026-06-30",
+      "categorias": [
+        "Trabalho científico",
+        "Série de casos (mínimo 3 a 5)",
+        "Relato de caso"
+      ]
+    },
+    {
+      "id": "sono-2026",
+      "nome": "22º Congresso Brasileiro do Sono",
+      "entidade": "Academia Brasileira do Sono",
+      "ambito": "nacional",
+      "dataInicio": "2026-12-03",
+      "dataFim": "2026-12-05",
+      "local": "São Paulo — SP",
+      "prazoSubmissao": "2026-08-24",
+      "categorias": [
+        "Área Clínica",
+        "Área Básica",
+        "Relatos de Caso",
+        "Projetos"
+      ]
+    },
+    {
+      "id": "abnc-2027",
+      "nome": "Congresso da Academia Brasileira de Neurocirurgia",
+      "entidade": "ABNC",
+      "ambito": "nacional",
+      "dataInicio": "2027-04-21",
+      "dataFim": "2027-04-24",
+      "local": "Curitiba — PR",
+      "prazoSubmissao": "2026-11-30",
+      "categorias": []
+    },
+    {
+      "id": "icnnd-2026",
+      "nome": "International Conference on Neurology and Neurological Disorders",
+      "ambito": "internacional",
+      "dataInicio": "2026-06-22",
+      "dataFim": "2026-06-24",
+      "local": "Barcelona — Espanha",
+      "prazoSubmissao": "2026-06-12",
+      "categorias": []
+    },
+    {
+      "id": "ecnp-2026",
+      "nome": "ECNP Congress 2026",
+      "entidade": "ECNP",
+      "ambito": "internacional",
+      "dataInicio": "2026-10-10",
+      "dataFim": "2026-10-13",
+      "local": "Alemanha",
+      "prazoSubmissao": "2026-05-05",
+      "categorias": []
+    }
+  ]
+}

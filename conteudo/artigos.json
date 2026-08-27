@@ -1,0 +1,585 @@
+{
+  "schemaVersion": 1,
+  "atualizadoEm": "2026-08-18T12:00:00Z",
+  "conteudo": [
+    {
+      "id": "epidemiologico-tendencia-temporal-da-mortalidade-por-avc-em-adultos-jovens-no-br",
+      "titulo": "Tendência temporal da mortalidade por AVC em adultos jovens no Brasil",
+      "categoria": "epidemiologico",
+      "revistasSugeridas": [
+        "Research, Society and Development",
+        "Brazilian Journal of Health Review",
+        "Revista Eletrônica Acervo Saúde",
+        "Revista Brasileira de Neurologia"
+      ],
+      "destaques": [
+        "publicacaoRapida"
+      ]
+    },
+    {
+      "id": "epidemiologico-internacoes-por-avc-hemorragico-versus-isquemico-nas-regioes-bras",
+      "titulo": "Internações por AVC hemorrágico versus isquêmico nas regiões brasileiras",
+      "categoria": "epidemiologico",
+      "revistasSugeridas": [
+        "Research, Society and Development",
+        "Brazilian Journal of Health Review",
+        "Revista Eletrônica Acervo Saúde",
+        "Revista Brasileira de Neurologia"
+      ]
+    },
+    {
+      "id": "epidemiologico-perfil-epidemiologico-da-doenca-de-parkinson-no-brasil",
+      "titulo": "Perfil epidemiológico da doença de Parkinson no Brasil",
+      "categoria": "epidemiologico",
+      "revistasSugeridas": [
+        "Research, Society and Development",
+        "Brazilian Journal of Health Review",
+        "Revista Eletrônica Acervo Saúde",
+        "Revista Brasileira de Neurologia"
+      ],
+      "destaques": [
+        "publicacaoRapida"
+      ]
+    },
+    {
+      "id": "epidemiologico-mortalidade-por-doenca-de-alzheimer-entre-2010-e-2025",
+      "titulo": "Mortalidade por doença de Alzheimer entre 2010 e 2025",
+      "categoria": "epidemiologico",
+      "revistasSugeridas": [
+        "Research, Society and Development",
+        "Brazilian Journal of Health Review",
+        "Revista Eletrônica Acervo Saúde",
+        "Revista Brasileira de Neurologia"
+      ]
+    },
+    {
+      "id": "epidemiologico-tendencia-das-internacoes-por-esclerose-multipla",
+      "titulo": "Tendência das internações por esclerose múltipla",
+      "categoria": "epidemiologico",
+      "revistasSugeridas": [
+        "Research, Society and Development",
+        "Brazilian Journal of Health Review",
+        "Revista Eletrônica Acervo Saúde",
+        "Revista Brasileira de Neurologia"
+      ]
+    },
+    {
+      "id": "epidemiologico-perfil-epidemiologico-da-epilepsia",
+      "titulo": "Perfil epidemiológico da epilepsia",
+      "categoria": "epidemiologico",
+      "revistasSugeridas": [
+        "Research, Society and Development",
+        "Brazilian Journal of Health Review",
+        "Revista Eletrônica Acervo Saúde",
+        "Revista Brasileira de Neurologia"
+      ]
+    },
+    {
+      "id": "epidemiologico-mortalidade-por-traumatismo-cranioencefalico-em-motociclistas",
+      "titulo": "Mortalidade por traumatismo cranioencefálico em motociclistas",
+      "categoria": "epidemiologico",
+      "revistasSugeridas": [
+        "Research, Society and Development",
+        "Brazilian Journal of Health Review",
+        "Revista Eletrônica Acervo Saúde",
+        "Revista Brasileira de Neurologia"
+      ]
+    },
+    {
+      "id": "epidemiologico-internacoes-por-aneurisma-cerebral-roto",
+      "titulo": "Internações por aneurisma cerebral roto",
+      "categoria": "epidemiologico",
+      "revistasSugeridas": [
+        "Research, Society and Development",
+        "Brazilian Journal of Health Review",
+        "Revista Eletrônica Acervo Saúde",
+        "Revista Brasileira de Neurologia"
+      ]
+    },
+    {
+      "id": "epidemiologico-tendencia-temporal-das-meningites-virais-e-bacterianas",
+      "titulo": "Tendência temporal das meningites virais e bacterianas",
+      "categoria": "epidemiologico",
+      "revistasSugeridas": [
+        "Research, Society and Development",
+        "Brazilian Journal of Health Review",
+        "Revista Eletrônica Acervo Saúde",
+        "Revista Brasileira de Neurologia"
+      ]
+    },
+    {
+      "id": "revisaonarrativa-inteligencia-artificial-aplicada-a-neurologia",
+      "titulo": "Inteligência artificial aplicada à neurologia",
+      "categoria": "revisaoNarrativa",
+      "revistasSugeridas": [
+        "Research, Society and Development",
+        "Revista Brasileira de Neurologia",
+        "Archives of Health Investigation"
+      ],
+      "destaques": [
+        "publicacaoRapida"
+      ]
+    },
+    {
+      "id": "revisaonarrativa-biomarcadores-da-doenca-de-alzheimer",
+      "titulo": "Biomarcadores da doença de Alzheimer",
+      "categoria": "revisaoNarrativa",
+      "revistasSugeridas": [
+        "Research, Society and Development",
+        "Revista Brasileira de Neurologia",
+        "Archives of Health Investigation"
+      ]
+    },
+    {
+      "id": "revisaonarrativa-novos-tratamentos-para-a-doenca-de-parkinson",
+      "titulo": "Novos tratamentos para a doença de Parkinson",
+      "categoria": "revisaoNarrativa",
+      "revistasSugeridas": [
+        "Research, Society and Development",
+        "Revista Brasileira de Neurologia",
+        "Archives of Health Investigation"
+      ]
+    },
+    {
+      "id": "revisaonarrativa-neuromodulacao-na-dor-cronica",
+      "titulo": "Neuromodulação na dor crônica",
+      "categoria": "revisaoNarrativa",
+      "revistasSugeridas": [
+        "Research, Society and Development",
+        "Revista Brasileira de Neurologia",
+        "Archives of Health Investigation"
+      ]
+    },
+    {
+      "id": "revisaonarrativa-trombectomia-mecanica-no-avc",
+      "titulo": "Trombectomia mecânica no AVC",
+      "categoria": "revisaoNarrativa",
+      "revistasSugeridas": [
+        "Research, Society and Development",
+        "Revista Brasileira de Neurologia",
+        "Archives of Health Investigation"
+      ]
+    },
+    {
+      "id": "revisaonarrativa-neuroinflamacao-e-doencas-neurodegenerativas",
+      "titulo": "Neuroinflamação e doenças neurodegenerativas",
+      "categoria": "revisaoNarrativa",
+      "revistasSugeridas": [
+        "Research, Society and Development",
+        "Revista Brasileira de Neurologia",
+        "Archives of Health Investigation"
+      ]
+    },
+    {
+      "id": "revisaonarrativa-uso-de-realidade-virtual-na-reabilitacao-neurologica",
+      "titulo": "Uso de realidade virtual na reabilitação neurológica",
+      "categoria": "revisaoNarrativa",
+      "revistasSugeridas": [
+        "Research, Society and Development",
+        "Revista Brasileira de Neurologia",
+        "Archives of Health Investigation"
+      ]
+    },
+    {
+      "id": "relatocaso-sindrome-de-susac",
+      "titulo": "Síndrome de Susac",
+      "categoria": "relatoCaso",
+      "revistasSugeridas": [
+        "Clinical Case Reports",
+        "Cureus",
+        "Radiology Case Reports",
+        "BMJ Case Reports",
+        "Journal of Medical Case Reports",
+        "World Neurosurgery"
+      ]
+    },
+    {
+      "id": "relatocaso-encefalite-autoimune-anti-nmda",
+      "titulo": "Encefalite autoimune anti-NMDA",
+      "categoria": "relatoCaso",
+      "revistasSugeridas": [
+        "Clinical Case Reports",
+        "Cureus",
+        "Radiology Case Reports",
+        "BMJ Case Reports",
+        "Journal of Medical Case Reports",
+        "World Neurosurgery"
+      ]
+    },
+    {
+      "id": "relatocaso-sindrome-de-fahr",
+      "titulo": "Síndrome de Fahr",
+      "categoria": "relatoCaso",
+      "revistasSugeridas": [
+        "Clinical Case Reports",
+        "Cureus",
+        "Radiology Case Reports",
+        "BMJ Case Reports",
+        "Journal of Medical Case Reports",
+        "World Neurosurgery"
+      ]
+    },
+    {
+      "id": "relatocaso-mielite-transversa",
+      "titulo": "Mielite transversa",
+      "categoria": "relatoCaso",
+      "revistasSugeridas": [
+        "Clinical Case Reports",
+        "Cureus",
+        "Radiology Case Reports",
+        "BMJ Case Reports",
+        "Journal of Medical Case Reports",
+        "World Neurosurgery"
+      ]
+    },
+    {
+      "id": "relatocaso-sindrome-de-wallenberg",
+      "titulo": "Síndrome de Wallenberg",
+      "categoria": "relatoCaso",
+      "revistasSugeridas": [
+        "Clinical Case Reports",
+        "Cureus",
+        "Radiology Case Reports",
+        "BMJ Case Reports",
+        "Journal of Medical Case Reports",
+        "World Neurosurgery"
+      ]
+    },
+    {
+      "id": "relatocaso-aneurisma-gigante",
+      "titulo": "Aneurisma gigante",
+      "categoria": "relatoCaso",
+      "revistasSugeridas": [
+        "Clinical Case Reports",
+        "Cureus",
+        "Radiology Case Reports",
+        "BMJ Case Reports",
+        "Journal of Medical Case Reports",
+        "World Neurosurgery"
+      ]
+    },
+    {
+      "id": "relatocaso-neuralgia-do-trigemeo-secundaria",
+      "titulo": "Neuralgia do trigêmeo secundária",
+      "categoria": "relatoCaso",
+      "revistasSugeridas": [
+        "Clinical Case Reports",
+        "Cureus",
+        "Radiology Case Reports",
+        "BMJ Case Reports",
+        "Journal of Medical Case Reports",
+        "World Neurosurgery"
+      ]
+    },
+    {
+      "id": "relatocaso-glioblastoma-em-paciente-jovem",
+      "titulo": "Glioblastoma em paciente jovem",
+      "categoria": "relatoCaso",
+      "revistasSugeridas": [
+        "Clinical Case Reports",
+        "Cureus",
+        "Radiology Case Reports",
+        "BMJ Case Reports",
+        "Journal of Medical Case Reports",
+        "World Neurosurgery"
+      ]
+    },
+    {
+      "id": "relatocaso-avc-associado-a-doencas-raras",
+      "titulo": "AVC associado a doenças raras",
+      "categoria": "relatoCaso",
+      "revistasSugeridas": [
+        "Clinical Case Reports",
+        "Cureus",
+        "Radiology Case Reports",
+        "BMJ Case Reports",
+        "Journal of Medical Case Reports",
+        "World Neurosurgery"
+      ]
+    },
+    {
+      "id": "dadosprimarios-qualidade-do-sono-em-estudantes-de-medicina",
+      "titulo": "Qualidade do sono em estudantes de medicina",
+      "categoria": "dadosPrimarios",
+      "revistasSugeridas": [
+        "Research, Society and Development",
+        "Revista Eletrônica Acervo Saúde",
+        "Brazilian Journal of Development"
+      ]
+    },
+    {
+      "id": "dadosprimarios-prevalencia-de-cefaleia-em-academicos-da-area-da-saude",
+      "titulo": "Prevalência de cefaleia em acadêmicos da área da saúde",
+      "categoria": "dadosPrimarios",
+      "revistasSugeridas": [
+        "Research, Society and Development",
+        "Revista Eletrônica Acervo Saúde",
+        "Brazilian Journal of Development"
+      ]
+    },
+    {
+      "id": "dadosprimarios-dependencia-digital-e-sintomas-neurologicos",
+      "titulo": "Dependência digital e sintomas neurológicos",
+      "categoria": "dadosPrimarios",
+      "revistasSugeridas": [
+        "Research, Society and Development",
+        "Revista Eletrônica Acervo Saúde",
+        "Brazilian Journal of Development"
+      ]
+    },
+    {
+      "id": "dadosprimarios-associacao-entre-ansiedade-e-frequencia-de-cefaleia",
+      "titulo": "Associação entre ansiedade e frequência de cefaleia",
+      "categoria": "dadosPrimarios",
+      "revistasSugeridas": [
+        "Research, Society and Development",
+        "Revista Eletrônica Acervo Saúde",
+        "Brazilian Journal of Development"
+      ]
+    },
+    {
+      "id": "dadosprimarios-conhecimento-da-populacao-sobre-sinais-de-avc",
+      "titulo": "Conhecimento da população sobre sinais de AVC",
+      "categoria": "dadosPrimarios",
+      "revistasSugeridas": [
+        "Research, Society and Development",
+        "Revista Eletrônica Acervo Saúde",
+        "Brazilian Journal of Development"
+      ],
+      "destaques": [
+        "publicacaoRapida"
+      ]
+    },
+    {
+      "id": "dadosprimarios-conhecimento-de-academicos-sobre-trombolise-e-trombectomia",
+      "titulo": "Conhecimento de acadêmicos sobre trombólise e trombectomia",
+      "categoria": "dadosPrimarios",
+      "revistasSugeridas": [
+        "Research, Society and Development",
+        "Revista Eletrônica Acervo Saúde",
+        "Brazilian Journal of Development"
+      ]
+    },
+    {
+      "id": "prontuario-perfil-clinico-dos-pacientes-com-avc-atendidos-em-hospital-de-referen",
+      "titulo": "Perfil clínico dos pacientes com AVC atendidos em hospital de referência",
+      "categoria": "prontuario",
+      "revistasSugeridas": [
+        "Journal of Clinical Neuroscience",
+        "World Neurosurgery",
+        "Revista Brasileira de Neurologia"
+      ]
+    },
+    {
+      "id": "prontuario-fatores-associados-ao-obito-em-avc",
+      "titulo": "Fatores associados ao óbito em AVC",
+      "categoria": "prontuario",
+      "revistasSugeridas": [
+        "Journal of Clinical Neuroscience",
+        "World Neurosurgery",
+        "Revista Brasileira de Neurologia"
+      ]
+    },
+    {
+      "id": "prontuario-perfil-epidemiologico-dos-pacientes-submetidos-a-trombolise",
+      "titulo": "Perfil epidemiológico dos pacientes submetidos à trombólise",
+      "categoria": "prontuario",
+      "revistasSugeridas": [
+        "Journal of Clinical Neuroscience",
+        "World Neurosurgery",
+        "Revista Brasileira de Neurologia"
+      ],
+      "destaques": [
+        "publicacaoRapida"
+      ]
+    },
+    {
+      "id": "prontuario-caracteristicas-clinicas-dos-pacientes-com-tce",
+      "titulo": "Características clínicas dos pacientes com TCE",
+      "categoria": "prontuario",
+      "revistasSugeridas": [
+        "Journal of Clinical Neuroscience",
+        "World Neurosurgery",
+        "Revista Brasileira de Neurologia"
+      ]
+    },
+    {
+      "id": "prontuario-perfil-dos-pacientes-internados-com-meningite",
+      "titulo": "Perfil dos pacientes internados com meningite",
+      "categoria": "prontuario",
+      "revistasSugeridas": [
+        "Journal of Clinical Neuroscience",
+        "World Neurosurgery",
+        "Revista Brasileira de Neurologia"
+      ]
+    },
+    {
+      "id": "prontuario-analise-dos-pacientes-submetidos-a-neurocirurgia-por-trauma",
+      "titulo": "Análise dos pacientes submetidos à neurocirurgia por trauma",
+      "categoria": "prontuario",
+      "revistasSugeridas": [
+        "Journal of Clinical Neuroscience",
+        "World Neurosurgery",
+        "Revista Brasileira de Neurologia"
+      ]
+    },
+    {
+      "id": "revisaosistematica-tenecteplase-versus-alteplase-no-avc",
+      "titulo": "Tenecteplase versus alteplase no AVC",
+      "categoria": "revisaoSistematica",
+      "revistasSugeridas": [
+        "Frontiers in Neurology",
+        "Journal of Clinical Neuroscience",
+        "Neurological Sciences",
+        "World Neurosurgery"
+      ],
+      "destaques": [
+        "altoPotencial"
+      ]
+    },
+    {
+      "id": "revisaosistematica-trombectomia-em-circulacao-posterior",
+      "titulo": "Trombectomia em circulação posterior",
+      "categoria": "revisaoSistematica",
+      "revistasSugeridas": [
+        "Frontiers in Neurology",
+        "Journal of Clinical Neuroscience",
+        "Neurological Sciences",
+        "World Neurosurgery"
+      ],
+      "destaques": [
+        "altoPotencial"
+      ]
+    },
+    {
+      "id": "revisaosistematica-biomarcadores-sericos-para-diagnostico-precoce-de-alzheimer",
+      "titulo": "Biomarcadores séricos para diagnóstico precoce de Alzheimer",
+      "categoria": "revisaoSistematica",
+      "revistasSugeridas": [
+        "Frontiers in Neurology",
+        "Journal of Clinical Neuroscience",
+        "Neurological Sciences",
+        "World Neurosurgery"
+      ],
+      "destaques": [
+        "altoPotencial"
+      ]
+    },
+    {
+      "id": "revisaosistematica-deep-brain-stimulation-na-doenca-de-parkinson",
+      "titulo": "Deep Brain Stimulation na doença de Parkinson",
+      "categoria": "revisaoSistematica",
+      "revistasSugeridas": [
+        "Frontiers in Neurology",
+        "Journal of Clinical Neuroscience",
+        "Neurological Sciences",
+        "World Neurosurgery"
+      ]
+    },
+    {
+      "id": "revisaosistematica-cirurgia-versus-radiocirurgia-para-meningioma",
+      "titulo": "Cirurgia versus radiocirurgia para meningioma",
+      "categoria": "revisaoSistematica",
+      "revistasSugeridas": [
+        "Frontiers in Neurology",
+        "Journal of Clinical Neuroscience",
+        "Neurological Sciences",
+        "World Neurosurgery"
+      ]
+    },
+    {
+      "id": "revisaosistematica-tratamento-da-neuralgia-do-trigemeo",
+      "titulo": "Tratamento da neuralgia do trigêmeo",
+      "categoria": "revisaoSistematica",
+      "revistasSugeridas": [
+        "Frontiers in Neurology",
+        "Journal of Clinical Neuroscience",
+        "Neurological Sciences",
+        "World Neurosurgery"
+      ]
+    },
+    {
+      "id": "revisaosistematica-encefalite-autoimune-anti-nmda",
+      "titulo": "Encefalite autoimune anti-NMDA",
+      "categoria": "revisaoSistematica",
+      "revistasSugeridas": [
+        "Frontiers in Neurology",
+        "Journal of Clinical Neuroscience",
+        "Neurological Sciences",
+        "World Neurosurgery"
+      ]
+    },
+    {
+      "id": "metaanalise-tenecteplase-versus-alteplase",
+      "titulo": "Tenecteplase versus alteplase",
+      "categoria": "metaAnalise",
+      "revistasSugeridas": [
+        "Neurosurgical Review",
+        "Frontiers in Neurology",
+        "Acta Neurochirurgica",
+        "Clinical Neurology and Neurosurgery"
+      ],
+      "destaques": [
+        "altoPotencial"
+      ]
+    },
+    {
+      "id": "metaanalise-dbs-versus-terapia-medicamentosa-em-parkinson",
+      "titulo": "DBS versus terapia medicamentosa em Parkinson",
+      "categoria": "metaAnalise",
+      "revistasSugeridas": [
+        "Neurosurgical Review",
+        "Frontiers in Neurology",
+        "Acta Neurochirurgica",
+        "Clinical Neurology and Neurosurgery"
+      ],
+      "destaques": [
+        "altoPotencial"
+      ]
+    },
+    {
+      "id": "metaanalise-trombectomia-tardia-em-avc",
+      "titulo": "Trombectomia tardia em AVC",
+      "categoria": "metaAnalise",
+      "revistasSugeridas": [
+        "Neurosurgical Review",
+        "Frontiers in Neurology",
+        "Acta Neurochirurgica",
+        "Clinical Neurology and Neurosurgery"
+      ]
+    },
+    {
+      "id": "metaanalise-biomarcadores-plasmaticos-de-alzheimer",
+      "titulo": "Biomarcadores plasmáticos de Alzheimer",
+      "categoria": "metaAnalise",
+      "revistasSugeridas": [
+        "Neurosurgical Review",
+        "Frontiers in Neurology",
+        "Acta Neurochirurgica",
+        "Clinical Neurology and Neurosurgery"
+      ]
+    },
+    {
+      "id": "metaanalise-cirurgia-endoscopica-para-adenoma-hipofisario",
+      "titulo": "Cirurgia endoscópica para adenoma hipofisário",
+      "categoria": "metaAnalise",
+      "revistasSugeridas": [
+        "Neurosurgical Review",
+        "Frontiers in Neurology",
+        "Acta Neurochirurgica",
+        "Clinical Neurology and Neurosurgery"
+      ]
+    },
+    {
+      "id": "metaanalise-uso-de-inteligencia-artificial-para-diagnostico-de-avc",
+      "titulo": "Uso de inteligência artificial para diagnóstico de AVC",
+      "categoria": "metaAnalise",
+      "revistasSugeridas": [
+        "Neurosurgical Review",
+        "Frontiers in Neurology",
+        "Acta Neurochirurgica",
+        "Clinical Neurology and Neurosurgery"
+      ]
+    }
+  ]
+}

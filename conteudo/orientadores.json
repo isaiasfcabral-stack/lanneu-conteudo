@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "atualizadoEm": "2026-08-18T12:00:00Z",
+  "conteudo": [
+    {
+      "id": "ori-01-dr-isaias-fiuza-cabral",
+      "nome": "Dr. Isaias Fiuza Cabral",
+      "vinculo": "Orientador do HU-UNIFAP",
+      "miniCurriculo": "Neurocirurgião do HU-UNIFAP, do Hospital São Camilo e do Hospital das Clínicas Alberto Lima. Residência em Neurocirurgia pela UERJ e fellowship em Neurocirurgia Oncológica em Tübingen e Dresden, na Alemanha.",
+      "foto": "https://raw.githubusercontent.com/isaiasfcabral-stack/lanneu-conteudo/main/fotos/isaias-fiuza-cabral.jpg"
+    },
+    {
+      "id": "ori-02-dra-raiza-vieira-campos",
+      "nome": "Dra. Raiza Vieira Campos",
+      "vinculo": "Orientadora UNIFAP"
+    }
+  ]
+}

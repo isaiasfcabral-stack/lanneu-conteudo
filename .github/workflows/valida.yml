@@ -1,0 +1,188 @@
+name: Valida o conteúdo
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sintaxe de cada arquivo
+        run: |
+          set -e
+          for f in conteudo/*.json; do
+            echo "· $f"
+            python3 -m json.tool "$f" > /dev/null
+          done
+
+      - name: Estrutura mínima
+        run: |
+          python3 - <<'PY'
+          import datetime, json, pathlib, sys
+          from urllib.parse import urlparse
+
+          ESPERADOS = ["liga", "orientadores", "parceiros", "membros",
+                       "eventos", "congressos", "artigos", "galeria"]
+          SCHEMA_MAX = 1
+          problemas = []
+
+          def link_valido(bruto):
+              """Mesma regra que `decodeCleanURL`, em
+              LanneuContentKit/Sources/LanneuContentKit/Model/DecodingHelpers.swift:
+              tira espaço das pontas, aceita esquema http/https em qualquer
+              caixa, e (mais estrito que o app) exige um host — sem isso
+              "https://" sozinho passaria como link "válido" sem levar a
+              lugar nenhum.
+              `urlparse` não rejeita espaço *interno* (só populamos o host com
+              o que vier depois de "//", espaço incluso), por isso a checagem
+              de espaço abaixo é o que fecha o buraco perigoso: antes deste
+              conserto, "https://exemplo com espaco" passava neste Action (só
+              conferia o prefixo "http"/"https") mas `decodeCleanURL` descarta
+              (`URL(string:)` recusa espaço cru) — o board via o ✓ verde e o
+              link nunca aparecia no app, sem aviso nenhum.
+              """
+              if not isinstance(bruto, str):
+                  return False
+              limpo = bruto.strip()
+              if not limpo or any(c.isspace() for c in limpo):
+                  return False
+              partes = urlparse(limpo)
+              return partes.scheme.lower() in ("http", "https") and bool(partes.netloc)
+
+          for nome in ESPERADOS:
+              caminho = pathlib.Path("conteudo") / f"{nome}.json"
+              if not caminho.exists():
+                  problemas.append(f"{caminho}: arquivo ausente")
+                  continue
+              dados = json.loads(caminho.read_text(encoding="utf-8"))
+              if "schemaVersion" not in dados:
+                  problemas.append(f"{caminho}: falta schemaVersion")
+              elif dados["schemaVersion"] > SCHEMA_MAX:
+                  problemas.append(
+                      f"{caminho}: schemaVersion {dados['schemaVersion']} é maior que "
+                      f"{SCHEMA_MAX}; o app publicado vai recusar este arquivo"
+                  )
+              if "conteudo" not in dados:
+                  problemas.append(f"{caminho}: falta a chave conteudo")
+
+          # Campos obrigatórios e ids únicos por arquivo de lista.
+          # `datetime.date.fromisoformat` recusa 2026-02-30, que é justamente o
+          # caso que o app descarta — o editor vê o erro antes de publicar.
+          OBRIGATORIOS = {
+              "eventos": ["id", "tema"],
+              "congressos": ["id", "nome"],
+              "artigos": ["id", "titulo", "categoria"],
+              "galeria": ["id", "titulo", "albumFotos"],
+              "orientadores": ["id", "nome"],
+              "parceiros": ["id", "nome"],
+          }
+          CATEGORIAS = {"epidemiologico", "revisaoNarrativa", "relatoCaso",
+                        "dadosPrimarios", "prontuario", "revisaoSistematica", "metaAnalise"}
+
+          for nome, campos in OBRIGATORIOS.items():
+              caminho = pathlib.Path("conteudo") / f"{nome}.json"
+              if not caminho.exists():
+                  continue
+              itens = json.loads(caminho.read_text(encoding="utf-8")).get("conteudo", [])
+              vistos = set()
+              for i, item in enumerate(itens):
+                  for campo in campos:
+                      if not item.get(campo):
+                          problemas.append(f"{caminho} item {i}: falta \"{campo}\"")
+                  ident = item.get("id")
+                  if ident in vistos:
+                      problemas.append(f"{caminho}: id repetido \"{ident}\"")
+                  vistos.add(ident)
+                  if nome == "artigos" and item.get("categoria") not in CATEGORIAS:
+                      problemas.append(
+                          f"{caminho} item {i}: categoria \"{item.get('categoria')}\" "
+                          f"não existe; use uma de {sorted(CATEGORIAS)}"
+                      )
+                  for campo_data in ("data", "dataInicio", "dataFim", "prazoSubmissao"):
+                      if item.get(campo_data) in (None, ""):
+                          continue
+                      bruto = str(item[campo_data])
+                      try:
+                          datetime.date.fromisoformat(bruto)
+                      except ValueError:
+                          problemas.append(
+                              f"{caminho} item {i}: {campo_data} \"{bruto}\" não é uma data "
+                              f"válida no formato AAAA-MM-DD (o app vai descartar este item)"
+                          )
+                  # Link de inscrição de aula aberta (funcionalidade 1): opcional,
+                  # mas quando presente precisa passar em `link_valido` — mesma
+                  # regra do `decodeCleanURL` do app (ver comentário acima).
+                  if nome == "eventos" and item.get("inscricao") not in (None, ""):
+                      inscricao = str(item["inscricao"])
+                      if not link_valido(inscricao):
+                          problemas.append(
+                              f"{caminho} item {i}: inscricao \"{inscricao}\" não é um link "
+                              f"http:// ou https:// válido — cole o endereço inteiro do "
+                              f"navegador, sem espaços (o app vai descartar este link em silêncio)"
+                          )
+
+          # membros.json tem forma diferente dos outros: `conteudo` é um objeto
+          # com listas por categoria, não uma lista. Sem um caminho próprio ele
+          # passaria sem checagem nenhuma — e é o arquivo que a diretoria mais
+          # edita, na virada do ano.
+          caminho = pathlib.Path("conteudo") / "membros.json"
+          if caminho.exists():
+              secoes = json.loads(caminho.read_text(encoding="utf-8")).get("conteudo", {})
+              if not isinstance(secoes, dict):
+                  problemas.append(f"{caminho}: \"conteudo\" deveria ser um objeto com as listas de membros")
+              else:
+                  vistos = set()
+                  for secao, membros in secoes.items():
+                      if not isinstance(membros, list):
+                          problemas.append(f"{caminho}: \"{secao}\" deveria ser uma lista")
+                          continue
+                      for i, pessoa in enumerate(membros):
+                          for campo in ("id", "nome"):
+                              if not pessoa.get(campo):
+                                  problemas.append(f"{caminho} {secao} item {i}: falta \"{campo}\"")
+                          ident = pessoa.get("id")
+                          if ident in vistos:
+                              problemas.append(f"{caminho}: id repetido \"{ident}\" (em {secao})")
+                          vistos.add(ident)
+
+          # Filiações da liga (funcionalidade 3): opcional, mas quando presente
+          # precisa ser lista, cada item precisa ter "sigla" (string não
+          # vazia, e única — ela vira o `id` do `ForEach` no app, então uma
+          # repetida é bug de UI, não só de dado feio) e "url", quando
+          # informado, precisa passar em `link_valido` — mesmo cuidado do
+          # link de inscrição, para não gerar um link morto ou, pior, um link
+          # que o app descarta em silêncio.
+          caminho = pathlib.Path("conteudo") / "liga.json"
+          if caminho.exists():
+              filiacoes = json.loads(caminho.read_text(encoding="utf-8")).get("conteudo", {}).get("filiacoes")
+              if filiacoes is not None:
+                  if not isinstance(filiacoes, list):
+                      problemas.append(f"{caminho}: \"filiacoes\" deveria ser uma lista")
+                  else:
+                      vistos = set()
+                      for i, item in enumerate(filiacoes):
+                          sigla = item.get("sigla") if isinstance(item, dict) else None
+                          if not isinstance(sigla, str) or not sigla.strip():
+                              problemas.append(f"{caminho} filiacoes item {i}: falta \"sigla\"")
+                          if sigla in vistos:
+                              problemas.append(
+                                  f"{caminho}: sigla repetida \"{sigla}\" (em filiacoes) — "
+                                  f"vira id duplicado na lista do app"
+                              )
+                          vistos.add(sigla)
+                          url = item.get("url") if isinstance(item, dict) else None
+                          if url not in (None, "") and not link_valido(str(url)):
+                              problemas.append(
+                                  f"{caminho} filiacoes item {i}: url \"{url}\" não é um link "
+                                  f"http:// ou https:// válido (o app vai descartar este link em silêncio)"
+                              )
+
+          if problemas:
+              print("\n".join("✗ " + p for p in problemas))
+              sys.exit(1)
+          print("✓ conteúdo válido")
+          PY

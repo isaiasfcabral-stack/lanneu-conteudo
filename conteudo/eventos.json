@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "atualizadoEm": "2026-08-18T12:00:00Z",
+  "conteudo": [
+    {
+      "id": "2026-07-10-apresentacao-da-liga-neuroanatomia",
+      "tema": "Apresentação da liga + Neuroanatomia",
+      "data": "2026-07-10",
+      "responsaveis": [
+        "Luan Henrique",
+        "Thiago Gabriel Barbosa dos Santos"
+      ]
+    },
+    {
+      "id": "instrumentacao-cirurgica-sutura-lacap",
+      "tema": "Instrumentação cirúrgica + Sutura (LACAP)",
+      "data": null,
+      "responsaveis": [
+        "LANNEU"
+      ]
+    },
+    {
+      "id": "2026-08-20-semiologia-neurologica-parte-1",
+      "tema": "Semiologia neurológica (parte 1)",
+      "subtitulo": "Exame motor, reflexos, tônus, força, coordenação",
+      "data": "2026-08-20",
+      "responsaveis": [
+        "Adria Auzier",
+        "Pedro Carvalho Carneiro",
+        "Eduardo Bentes Frazão Yamaguchi da Pureza"
+      ]
+    },
+    {
+      "id": "2026-09-17-neuropatias-e-mielopatias",
+      "tema": "Neuropatias e mielopatias",
+      "data": "2026-09-17",
+      "responsaveis": [
+        "Lucas Farias Barbosa",
+        "Marcely Aparecida da Silva Lima",
+        "Antony de Jesus Lima Ferreira"
+      ]
+    },
+    {
+      "id": "2026-10-16-semiologia-neurologica-parte-2",
+      "tema": "Semiologia neurológica (parte 2)",
+      "subtitulo": "Nervos cranianos, sensibilidade, marchas, sinais meníngeos",
+      "data": "2026-10-16",
+      "responsaveis": [
+        "Yane Dias Lee",
+        "Iolanda Célia Oliveira da Costa Lobato",
+        "Lucas Santos Dias"
+      ]
+    },
+    {
+      "id": "2026-11-12-coma-e-alteracoes-do-nivel-de-consciencia",
+      "tema": "Coma e alterações do nível de consciência",
+      "data": "2026-11-12",
+      "responsaveis": [
+        "Caio de Souza Nascimento",
+        "Juliana Mira",
+        "Maria Izabel Borges Siqueira Netta"
+      ]
+    },
+    {
+      "id": "2026-12-10-epilepsia",
+      "tema": "Epilepsia",
+      "data": "2026-12-10",
+      "responsaveis": [
+        "Alexandre Dias Ferreira",
+        "Enrique Ariel",
+        "Adrielly Lima de Souza"
+      ]
+    },
+    {
+      "id": "2027-02-11-demencias",
+      "tema": "Demências",
+      "data": "2027-02-11",
+      "responsaveis": [
+        "Gabriela Martins",
+        "Luis Henrique Costa Monteiro",
+        "Airton da Silva Maia"
+      ]
+    },
+    {
+      "id": "2027-03-11-cefaleias",
+      "tema": "Cefaleias",
+      "data": "2027-03-11",
+      "responsaveis": [
+        "Victor Lucas",
+        "Alana Vitória de Almeida Silveira",
+        "Pedro Henrique Pinheiro Soares"
+      ]
+    },
+    {
+      "id": "2027-04-11-disturbios-do-sono",
+      "tema": "Distúrbios do sono",
+      "data": "2027-04-11",
+      "responsaveis": [
+        "Marya Clara Camille Kuranishi",
+        "Luiz Guilherme Nunes Silva"
+      ]
+    }
+  ]
+}

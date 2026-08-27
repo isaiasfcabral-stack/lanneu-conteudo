@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "atualizadoEm": "2026-08-18T12:00:00Z",
+  "conteudo": {
+    "instagram": "https://instagram.com/lanneunifap",
+    "email": "lanneunifap@gmail.com",
+    "nome": "LANNEU",
+    "nomeCompleto": "Liga Acadêmica de Neurologia e Neurocirurgia do Amapá",
+    "sobre": "A LANNEU reúne estudantes de medicina do Amapá em torno da neurologia e da neurocirurgia, com encontros teóricos mensais, atividades práticas e produção científica orientada por especialistas da região.",
+    "filiacoes": [
+      {
+        "sigla": "ABLAM",
+        "nome": "Associação Brasileira de Ligas Acadêmicas de Medicina"
+      },
+      {
+        "sigla": "ABNc",
+        "nome": "Academia Brasileira de Neurocirurgia"
+      },
+      {
+        "sigla": "ABN",
+        "nome": "Academia Brasileira de Neurologia"
+      },
+      {
+        "sigla": "SBN",
+        "nome": "Sociedade Brasileira de Neurocirurgia"
+      },
+      {
+        "sigla": "LABN FLANC"
+      }
+    ]
+  }
+}
