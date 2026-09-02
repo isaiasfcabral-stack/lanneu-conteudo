@@ -6,7 +6,8 @@
       "id": "par-01-dr-thiago-da-costa-brito",
       "nome": "Dr. Thiago da Costa Brito",
       "vinculo": "Neurologista",
-      "miniCurriculo": "CRM 1591/AP · RQE 1025 (Neurologia). Médico pela Universidade do Estado do Pará, com residência em Neurologia pelo Hospital Socor, em Belo Horizonte. Membro efetivo da Academia Brasileira de Neurologia."
+      "miniCurriculo": "CRM 1591/AP · RQE 1025 (Neurologia). Médico pela Universidade do Estado do Pará, com residência em Neurologia pelo Hospital Socor, em Belo Horizonte. Membro efetivo da Academia Brasileira de Neurologia.",
+      "foto": "https://raw.githubusercontent.com/isaiasfcabral-stack/lanneu-conteudo/main/fotos/thiago-da-costa-brito.jpg"
     },
     {
       "id": "par-02-dra-daniela",
@@ -16,19 +17,22 @@
       "id": "par-03-dr-paulo-andre-couto-de-aragao",
       "nome": "Dr. Paulo André Couto de Aragão",
       "vinculo": "Neurocirurgião",
-      "miniCurriculo": "CRM 847 · RQE 163 (Neurocirurgia). Médico pela Universidade do Estado do Pará e especialista em Neurocirurgia pela Santa Casa de Misericórdia de Ribeirão Preto, em São Paulo. Membro titular da Sociedade Brasileira de Neurologia e ex-diretor do HCAL. Atua no HCAL, no Neurocor e no HU."
+      "miniCurriculo": "CRM 847 · RQE 163 (Neurocirurgia). Médico pela Universidade do Estado do Pará e especialista em Neurocirurgia pela Santa Casa de Misericórdia de Ribeirão Preto, em São Paulo. Membro titular da Sociedade Brasileira de Neurocirurgia e ex-diretor do HCAL. Atua no HCAL, no Neurocor e no HU.",
+      "foto": "https://raw.githubusercontent.com/isaiasfcabral-stack/lanneu-conteudo/main/fotos/paulo-andre-couto-de-aragao.jpg"
     },
     {
       "id": "par-04-dr-luis-alejandro-cadena-astudillo",
       "nome": "Dr. Luis Alejandro Cadena Astudillo",
       "vinculo": "Neurocirurgião e neurologista",
-      "miniCurriculo": "CRM 274/AP · RQE 243 (Neurocirurgia). Médico pela Universidade Federal do Pará, formado em 1986. Atua como neurocirurgião e neurologista."
+      "miniCurriculo": "CRM 274/AP · RQE 243 (Neurocirurgia). Médico pela Universidade Federal do Pará, formado em 1986. Atua como neurocirurgião e neurologista.",
+      "foto": "https://raw.githubusercontent.com/isaiasfcabral-stack/lanneu-conteudo/main/fotos/luis-alejandro-cadena-astudillo.jpg"
     },
     {
       "id": "par-05-dr-gabriel-rocha-de-souza",
       "nome": "Dr. Gabriel Rocha de Souza",
       "vinculo": "Neurologista",
-      "miniCurriculo": "CRM 1395/AP · RQE 1109 (Neurologia). Médico pela Faculdade de Medicina Nova Esperança, em João Pessoa, com residência em Neurologia pela Universidade do Estado do Pará."
+      "miniCurriculo": "CRM 1395/AP · RQE 1109 (Neurologia). Médico pela Faculdade de Medicina Nova Esperança, em João Pessoa, com residência em Neurologia pela Universidade do Estado do Pará.",
+      "foto": "https://raw.githubusercontent.com/isaiasfcabral-stack/lanneu-conteudo/main/fotos/gabriel-rocha-de-souza.jpg"
     }
   ]
 }
