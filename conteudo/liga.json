@@ -25,7 +25,8 @@
       {
         "sigla": "SBN",
         "nome": "Sociedade Brasileira de Neurocirurgia",
-        "url": "https://www.portalsbn.org"
+        "url": "https://www.portalsbn.org",
+        "logo": "https://raw.githubusercontent.com/isaiasfcabral-stack/lanneu-conteudo/main/fotos/logo-sbn.png"
       },
       {
         "sigla": "LABN FLANC",

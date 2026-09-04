@@ -155,7 +155,10 @@ jobs:
           # repetida é bug de UI, não só de dado feio) e "url", quando
           # informado, precisa passar em `link_valido` — mesmo cuidado do
           # link de inscrição, para não gerar um link morto ou, pior, um link
-          # que o app descarta em silêncio.
+          # que o app descarta em silêncio. "logo" (funcionalidade 4) é a
+          # mesma regra de "url": também é um link http(s) que o app abre
+          # como imagem via `decodeCleanURL` — sem essa checagem um logo mal
+          # colado passaria aqui verde e simplesmente não apareceria no app.
           caminho = pathlib.Path("conteudo") / "liga.json"
           if caminho.exists():
               filiacoes = json.loads(caminho.read_text(encoding="utf-8")).get("conteudo", {}).get("filiacoes")
@@ -179,6 +182,12 @@ jobs:
                               problemas.append(
                                   f"{caminho} filiacoes item {i}: url \"{url}\" não é um link "
                                   f"http:// ou https:// válido (o app vai descartar este link em silêncio)"
+                              )
+                          logo = item.get("logo") if isinstance(item, dict) else None
+                          if logo not in (None, "") and not link_valido(str(logo)):
+                              problemas.append(
+                                  f"{caminho} filiacoes item {i}: logo \"{logo}\" não é um link "
+                                  f"http:// ou https:// válido (o app vai descartar este logo em silêncio)"
                               )
 
           if problemas:

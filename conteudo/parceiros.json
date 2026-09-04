@@ -10,8 +10,10 @@
       "foto": "https://raw.githubusercontent.com/isaiasfcabral-stack/lanneu-conteudo/main/fotos/thiago-da-costa-brito.jpg"
     },
     {
-      "id": "par-02-dra-daniela",
-      "nome": "Dra. Daniela"
+      "id": "par-02-dra-daniella-francisco-dias-alves",
+      "nome": "Dra. Daniella Francisco Dias Alves",
+      "vinculo": "Neurologista",
+      "miniCurriculo": "CRM 1426 · RQE 873 (Neurologia). Médica pela Universidade Federal do Amapá, com residência médica integrada em Neurologia em Goiânia (HUGO, HGG e SCMGO)."
     },
     {
       "id": "par-03-dr-paulo-andre-couto-de-aragao",
