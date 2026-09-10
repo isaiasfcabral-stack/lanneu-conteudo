@@ -9,37 +9,42 @@
         "cargo": "Presidente"
       },
       {
-        "id": "dir-02-marya-clara-camille-kuranishi",
-        "nome": "Marya Clara Camille Kuranishi",
-        "cargo": "Vice-presidente e Ensino"
+        "id": "dir-02-camille-kuranishi",
+        "nome": "Camille Kuranishi",
+        "cargo": "Vice-presidente"
       },
       {
-        "id": "dir-03-pedro-henrique-pinheiro-soares",
+        "id": "dir-03-marya-clara-araujo-da-silva",
+        "nome": "Marya Clara Araújo da Silva",
+        "cargo": "Ensino"
+      },
+      {
+        "id": "dir-04-pedro-henrique-pinheiro-soares",
         "nome": "Pedro Henrique Pinheiro Soares",
         "cargo": "Secretário"
       },
       {
-        "id": "dir-04-juliana-alencar-isacksson-vieira",
+        "id": "dir-05-juliana-alencar-isacksson-vieira",
         "nome": "Juliana Alencar Isacksson Vieira",
         "cargo": "Financeiro"
       },
       {
-        "id": "dir-05-adria-auzier",
+        "id": "dir-06-adria-auzier",
         "nome": "Adria Auzier",
         "cargo": "Pesquisa"
       },
       {
-        "id": "dir-06-luis-henrique-costa-monteiro",
+        "id": "dir-07-luis-henrique-costa-monteiro",
         "nome": "Luis Henrique Costa Monteiro",
         "cargo": "Ensino"
       },
       {
-        "id": "dir-07-victor-lucas",
+        "id": "dir-08-victor-lucas",
         "nome": "Victor Lucas",
         "cargo": "Estágio"
       },
       {
-        "id": "dir-08-yane-dias-lee",
+        "id": "dir-09-yane-dias-lee",
         "nome": "Yane Dias Lee",
         "cargo": "Marketing"
       }
